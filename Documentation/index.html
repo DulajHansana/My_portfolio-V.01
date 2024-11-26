@@ -1,0 +1,500 @@
+﻿<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="no-js" lang="en">
+    <!--<![endif]-->
+    <head>
+        <!-- Color modes -->
+        <script src="assets/js/vendor/color-modes.js"></script>
+        <!-- Basic metas
+    ======================================== -->
+        <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+        <meta charset="utf-8" />
+        <link rel="shortcut icon" type="image/x-icon" href="assets/images/favicon.svg" />
+        <!-- Page Title
+    ======================================== -->
+        <title>Zelio - Multipurpose Business Startup NextJS Template</title>
+        <!-- Fonts -->
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link href="https://fonts.googleapis.com/css2?family=Teachers:ital,wght@0,400..800;1,400..800&display=swap" rel="stylesheet" />
+        <!-- Syntax Highlighter -->
+        <link rel="stylesheet" type="text/css" href="assets/syntax-highlighter/styles/shCore.css" media="all" />
+        <link rel="stylesheet" type="text/css" href="assets/syntax-highlighter/styles/shThemeDefault.css" media="all" />
+        <!-- Bootstrap -->
+        <link rel="stylesheet" type="text/css" href="assets/css/vendor/bootstrap.min.css" />
+        <link rel="stylesheet" type="text/css" href="assets/css/vendor/fontawesome-all.css" />
+        <link rel="stylesheet" type="text/css" href="assets/css/vendor/perfect-scrollbar.css" />
+        <!-- Custom css -->
+        <link rel="stylesheet" type="text/css" href="assets/css/main.css" />
+    </head>
+    <body>
+        <!--[if lte IE 9]>
+            <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
+        <![endif]-->
+        <!-- Header starts -->
+        <a href="#top" class="back-to-top"><i class="fa fa-arrow-up"></i></a>
+        <header class="page-header sticky-top" id="top">
+            <div class="container-fluid">
+                <nav class="page-nav">
+                    <a href="https://alithemes.com" class="nav-brand d-flex">
+                        <img src="assets/images/ali-logo.svg" alt="logo" />
+                        <img src="assets/images/ali-text.svg" alt="logo" class="color-inverse ms-1" />
+                    </a>
+                    <div class="d-flex align-items-center">
+                        <div class="nav-list me-5">
+                            <a href="https://zelio-nextjs.vercel.app/" target="_blank"><i class="fas fa-external-link-alt me-2"></i>Demos</a>
+                            <a href="https://alithemes.ticksy.com/" target="_blank"><i class="far fa-life-ring me-2"></i>Support</a>
+                            <a href="https://themeforest.net/user/alithemes/portfolio/" target="_blank"><i class="fas fa-th me-2"></i>Portfolio</a>
+                            <a href="#" class="toggle-navbar"><i class="fas fa-bars"></i></a>
+                        </div>
+                        <div class="dropdown">
+                            <button class="btn btn-light btn-icon rounded-circle d-flex align-items-center" type="button" aria-expanded="false" data-bs-toggle="dropdown" aria-label="Toggle theme (auto)">
+                                <i class="fas fa-adjust fs-4 color-primary"></i>
+                                <span class="visually-hidden bs-theme-text">Toggle theme</span>
+                            </button>
+                            <ul class="dropdown-menu dropdown-menu-end shadow" aria-labelledby="bs-theme-text">
+                                <li>
+                                    <button type="button" class="dropdown-item d-flex align-items-center fs-4" data-bs-theme-value="light" aria-pressed="false">
+                                        <i class="fas fa-sun"></i>
+                                        <span class="ms-2">Light</span>
+                                    </button>
+                                </li>
+                                <li>
+                                    <button type="button" class="dropdown-item d-flex align-items-center fs-4" data-bs-theme-value="dark" aria-pressed="false">
+                                        <i class="fas fa-moon"></i>
+                                        <span class="ms-2">Dark</span>
+                                    </button>
+                                </li>
+                                <li>
+                                    <button type="button" class="dropdown-item d-flex align-items-center active fs-4" data-bs-theme-value="auto" aria-pressed="true">
+                                        <i class="fas fa-adjust"></i>
+                                        <span class="ms-2">Auto</span>
+                                    </button>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <!-- End of .nav-list -->
+                </nav>
+            </div>
+            <!-- End of .container -->
+        </header>
+        <!-- End of .page-header -->
+        <!-- End of .main-content -->
+        <div class="main-content-wrapper">
+            <div class="container-fluid">
+                <div class="main-content p-t-40">
+                    <aside class="sidebar-navigation sticky-top rounded">
+                        <nav class="nav">
+                            <h4 class="mb-3">Table of Content</h4>
+                            <form action="#" class="search-form m-b-20">
+                                <div class="input-group">
+                                    <input type="text" class="search-input" placeholder="Search item" />
+                                </div>
+                            </form>
+                            <ol class="doc-nav">
+                                <li>
+                                    <a class="nav-link" href="#overview">OVERVIEW</a>
+                                    <ol>
+                                        <li><a class="nav-link" href="#features">Features</a></li>
+                                        <li><a class="nav-link" href="#what-you-get">What You Get</a></li>
+                                        <li><a class="nav-link" href="#change-log">Change logs</a></li>
+                                    </ol>
+                                </li>
+                                <li>
+                                    <a class="nav-link" href="#structure">STRUCTURE</a>
+                                    <ol>
+                                        <li><a href="#folder-structure">Folder Structure</a></li>
+                                        <li><a href="#app-structure">App Structure</a></li>
+                                        <li><a href="#dependencies">Dependencies</a></li>                                       
+                                        <li><a href="#routing">Routing</a></li>
+                                        <li><a href="#development">Development</a></li>
+                                        <li><a href="#deployment">Deployment</a></li>
+                                    </ol>
+                                </li>
+                                <li><a class="nav-link" href="#update">UPDATE</a></li>
+                                <li><a class="nav-link" href="#credits">SOURCES & CREDITS</a></li>
+                                <li><a class="nav-link" href="#thanks">THANK YOU</a></li>
+                            </ol>
+                        </nav>
+                    </aside>
+                    <main class="main">
+                        <div class="filterable-wrapper">
+                            <section>
+                                <p>
+                                    <a href="#" target="_blank">
+                                        <img class="logo-light" src="assets/images/logo-light.svg" alt="" />
+                                        <img class="logo-dark" src="assets/images/logo-dark.svg" alt="" />
+                                    </a>
+                                </p>
+                                <h4>Zelio - Multipurpose Business Startup NextJS Template</h4>
+                                <h3 class="mb-5"></h3>
+                                <h4 class="mt-0">DOCUMENTATION</h4>
+                                <ul class="text-small doc-infor">
+                                    <li>Doc version: 1.0.0</li>
+                                    <li>Created: 02 October 2024</li>
+                                    <li>Last update: 02 October 2024</li>
+                                </ul>
+                                <h3 class="mb-5"></h3>
+                            </section>
+                            <section>
+
+                            <h3>Overview</h3>
+                            <p>Showcase your distinctive skills and creativity with Zelio, a state-of-the-art NextJS template crafted specifically for personal portfolios. Perfect for freelancers, designers, artists, and creatives of all types, Zelio offers a sleek, contemporary design that ensures your work shines.</p>
+                            <ul>
+                                <li><a href="https://zelio-nextjs.vercel.app/">Demo 1: Designer</a></li>
+                                <li><a href="https://zelio-nextjs.vercel.app/index-2">Demo 2: Developer</a></li>
+                                <li><a href="https://zelio-nextjs.vercel.app/index-3">Demo 3: Author</a></li>
+                            </ul>
+                            <p>This template includes <strong>Figma design file</strong>, making it easy to customize and develop this template to your liking.</p>
+                            <p>We have a dedicated <a href="https://alithemes.ticksy.com/">Support Center</a> for all of your support needs. It includes our <strong>Documentation</strong> and <strong>Ticket system</strong> for any questions you have. We usually get back to you within 12-24 hours.</p>
+                            <p>We are continuing to work hard to develop this item, more homepages and more great features will be added. You only need to buy 1 time and get <strong>lifetime updates.</strong></p>
+                            <hr />
+                            <h3>Main Features</h3>
+                            <ul class="list-2 w-75">
+                                <li>03 Homepages: Designer, Developer, AUthor</li>   
+                                <li>NextJS 14, App router, Typescript</li>                            
+                                <li><strong>Dark / Light mode</strong>: Easily switch between dark and light mode for enhanced accessibility.</li>
+                                <li>
+                                    <a href="https://getbootstrap.com/"><strong>Bootstrap Framework:</strong></a> Rapidly build modern websites without ever leaving your HTML.
+                                </li>
+                                <li><strong>Figma design included:</strong> A great gift from us, you can quickly continue developing this template.</li>
+                                <li><strong>Detailed documentation:</strong> Extensive documentation plus great video guides on how to setup and customize Trucking will make your customizations super easy and fast!</li>
+                                <li><strong>Responsive & retina ready:</strong>Look of your website on mobile devices is very important these days. So we made sure <strong>Zelio</strong> looks great both on mobile, desktop and retina screens!</li>
+                                <li><strong>Cross browser compatibility:</strong><strong>Zelio</strong> looks great among all major browsers including IE9+.</li>
+                                <li><strong>Free Lifetime Updates and User Support:</strong>Each purchase of the Theme guarantees you lifetime access to future theme updates at no extra cost. You also get six months of user support with the option of extending this period should you wish.</li>
+                                <li><strong>Creative Design:</strong> <strong>Zelio</strong> is a bold template that organizing content to follow natural eyes, striking balance between beautiful and visual hierarchy.</li>
+                                <li><strong>100% Fully Responsive:</strong> The template passed Mobile-Friendly Test – by Google. We also tested carefully the template on almost devices: PC, Laptop, tablet, and phone. All elements are 100% responsive and ready for all devices.</li>
+                                <li><strong>Pixel Perfect Design</strong></li>
+                                <li><strong>Color & Fonts is easily changed</strong></li>
+                                <li><strong>W3C</strong> Validated Code</li>
+                            </ul>
+                            <h3>What You Get</h3>
+                            <ol>
+                                <li>NextJS template</li>                               
+                                <li>Figma design file</li>
+                                <li>Documentation</li>
+                            </ol>
+                            <h3>Note</h3>
+                            <ul>
+                                <li>All images are just used for Preview Purpose Only. They are not part of the template and maybe NOT included in the final purchase files.</li>
+                                <li>This is not a WordPress theme, It is a NextJS template</li>
+                            </ul>
+                            <h3>Change log</h3>
+                            <pre>
+VERSION 1.0.0
+- First release.
+</pre>
+                                <h2 id="structure">STRUCTURE</h2>
+                                <h3 id="folder-structure">Folder Structure</h3>
+                                <div class="files-folder-lists">
+                                    <ul class="perfect-scrollbar">
+                                        <li>
+                                            <i class="fas fa-folder"></i><code>/app</code>
+                                            <ul>
+                                                <li>
+                                                    <i class="fas fa-folder"></i><code>/about</code>
+                                                    <ul>
+                                                        <li><i class="fas fa-file-alt"></i><code>/page.tsx</code></li>
+                                                    </ul>
+                                                </li>
+                                                <li>
+                                                    <i class="fas fa-folder"></i><code>/activities</code>
+                                                    <ul>
+                                                        <li><i class="fas fa-file-alt"></i><code>/page.tsx</code></li>
+                                                    </ul>
+                                                </li>
+                                                <li><i class="fas fa-file-alt"></i><code>...</code></li>
+                                            </ul>
+                                        </li>
+                                        <li>
+                                            <i class="fas fa-folder"></i><code>/components</code>
+                                            <ul>
+                                                <li>
+                                                    <i class="fas fa-folder"></i><code>/blog</code>
+                                                    <ul>
+                                                        <li><i class="fas fa-file-alt"></i><code>/BlogCard1.js</code></li>
+                                                        <li><i class="fas fa-file-alt"></i><code>/BlogPost.js</code></li>
+                                                        <li><i class="fas fa-file-alt"></i><code>/Pagination.js</code></li>
+                                                    </ul>
+                                                </li>
+                                            </ul>
+                                            <ul>
+                                                <li>
+                                                    <i class="fas fa-folder"></i><code>/elements</code>
+                                                    <ul>
+                                                        <li><i class="fas fa-file-alt"></i><code>/BackToTop.js</code></li>
+                                                        <li><i class="fas fa-file-alt"></i><code>/Counter.js</code></li>
+                                                        <li><i class="fas fa-file-alt"></i><code>/CounterUp.js</code></li>
+                                                        <li><i class="fas fa-file-alt"></i><code>/...</code></li>
+                                                    </ul>
+                                                </li>
+                                            </ul>
+                                            <ul>
+                                                <li>
+                                                    <i class="fas fa-folder"></i><code>/layout</code>
+                                                    <ul>
+                                                        <li><i class="fas fa-file-alt"></i><code>/Footer.js</code></li>
+                                                        <li><i class="fas fa-file-alt"></i><code>/Header.js</code></li>
+                                                        <li><i class="fas fa-file-alt"></i><code>/Layout.js</code></li>
+                                                        <li><i class="fas fa-file-alt"></i><code>/...</code></li>
+                                                    </ul>
+                                                </li>
+                                            </ul>
+                                            <ul>
+                                                <li>
+                                                    <i class="fas fa-folder"></i><code>/sections</code>
+                                                    <ul>
+                                                        <li><i class="fas fa-file-alt"></i><code>/About1.js</code></li>
+                                                        <li><i class="fas fa-file-alt"></i><code>/About2.js</code></li>
+                                                        <li><i class="fas fa-file-alt"></i><code>...</code></li>
+                                                    </ul>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                        <li>
+                                            <i class="fas fa-folder"></i><code>/slider</code>/
+                                            <ul>
+                                                <li><i class="fas fa-file-alt"></i><code>/BrandActiveSlider.js</code></li>
+                                                <li><i class="fas fa-file-alt"></i><code>/HeroSlider.js</code></li>
+                                                <li><i class="fas fa-file-alt"></i><code>/TestimonialActiveTwoSlider.js</code></li>
+                                            </ul>
+                                        </li>
+                                        <li><i class="fas fa-folder"></i><code>/public</code></li>
+                                        <li><i class="fas fa-file-alt"></i><code>/.gitignore</code></li>
+                                        <li><i class="fas fa-file-alt"></i><code>/jsconfig.json</code></li>
+                                        <li><i class="fas fa-file-alt"></i><code>/next.config.js</code></li>
+                                        <li><i class="fas fa-file-alt"></i><code>/package.json</code></li>
+                                        <li><i class="fas fa-file-alt"></i><code>/package-lock.json</code></li>
+                                        <li><i class="fas fa-file-alt"></i><code>/README.md</code></li>
+                                    </ul>
+                                </div>
+                                <h3 id="app-structure">App Structure</h3>
+                                <p><code>layout.tsx</code> Structure</p>
+                                <pre class="brush: html">
+<!--
+
+import "/public/assets/css/vendors/bootstrap.min.css"
+import "/public/assets/css/vendors/swiper-bundle.min.css"
+import "/public/assets/css/vendors/carouselTicker.css"
+import "/public/assets/css/vendors/magnific-popup.css"
+import "/public/assets/fonts/remixicon/remixicon.css"
+import "/public/assets/css/main.css"
+
+import type { Metadata } from "next"
+import { Urbanist, Playfair_Display, DM_Mono } from "next/font/google"
+
+const urbanist = Urbanist({
+	weight: ['300', '400', '500', '600', '700'],
+	subsets: ['latin'],
+	variable: "--urbanist",
+	display: 'swap',
+})
+const playfair_display = Playfair_Display({
+	weight: ['400', '500', '600', '700'],
+	subsets: ['latin'],
+	variable: "--playpair",
+	display: 'swap',
+})
+const dmMono = DM_Mono({
+	weight: ['300', '400', '500'],
+	subsets: ['latin'],
+	variable: "--dmMono",
+	display: 'swap',
+})
+
+export const metadata: Metadata = {
+	title: "Zelio - Personal Portfolio Template",
+	description: "Zelio - Personal Portfolio Template",
+}
+
+export default function RootLayout({
+	children,
+}: Readonly<{
+	children: React.ReactNode
+}>) {
+	return (
+		<html lang="en" data-bs-theme="dark">
+			<body className={`${urbanist.variable} ${playfair_display.variable} ${dmMono.variable}`}>{children}</body>
+		</html>
+	)
+}
+-->
+                            </pre>
+                            <h3 id="dependencies">Dependencies</h3>
+                            <p><code>package.json</code></p>
+                                <pre class="brush: html">
+                                    "dependencies": {
+                                        "gsap": "^3.12.5",
+                                        "isotope-layout": "^3.0.6",
+                                        "next": "14.1.3",
+                                        "react": "^18",
+                                        "react-countup": "^6.5.3",
+                                        "react-dom": "^18",
+                                        "react-fast-marquee": "^1.6.5",
+                                        "react-odometerjs": "^3.1.3",
+                                        "react-perfect-scrollbar": "^1.5.8",
+                                        "swiper": "^11.1.14",
+                                        "wowjs": "^1.1.3"
+                                      },
+                                      "devDependencies": {
+                                        "@types/isotope-layout": "^3.0.14",
+                                        "@types/node": "^20",
+                                        "@types/react": "^18",
+                                        "@types/react-dom": "^18",
+                                        "eslint": "^8",
+                                        "eslint-config-next": "14.1.3",
+                                        "typescript": "^5"
+                                      }
+                                </pre>
+
+                                <h3 id="routing">Routing</h3>
+                                <p>The Next.js router allows you to do client-side route transitions between pages, similar to a single-page application</p>
+                                <p>A React component called Link is provided to do this client-side route transition.</p>
+                                <pre class="brush: javascript">
+<!-- 
+
+import Link from "next/link"
+........
+
+    <ul className="list-unstyled">
+        <li><Link className="dropdown-item position-relative z-1" href="/page-about">About us v.1</Link></li>
+        <li><Link className="dropdown-item position-relative z-1" href="/page-about-2">About us v.2</Link></li>
+        <li><Link className="dropdown-item position-relative z-1" href="/page-about-3">About us v.3</Link></li>
+    </ul>
+    <p className="text-primary fw-bold mb-1 fs-7 mt-4">SERVICES</p>
+    <ul className="list-unstyled">
+        <li><Link className="dropdown-item position-relative z-1" href="/page-services-1">Services v.1</Link></li>
+        <li><Link className="dropdown-item position-relative z-1" href="/page-services-2">Services v.2</Link></li>
+        <li><Link className="dropdown-item position-relative z-1" href="/page-services-3">Services v.3</Link></li>
+        <li><Link className="dropdown-item position-relative z-1" href="/page-services-details-1">Services details v.1</Link></li>
+        <li><Link className="dropdown-item position-relative z-1" href="/page-services-details-2">Services details v.2</Link></li>
+    </ul>
+
+    .......
+-->
+                                </pre>
+                               
+                            </pre>
+                            <p>In the example above we have multiple links, each one maps a path (href) to a known page:</p>
+                            <ul>
+                                <li>/ → app/page.txs</li>
+                                <li>/about → app/about/page.tsx</li>
+                            </ul>
+
+                            <p>Any in the viewport (initially or through scroll) will be prefetched by default (including the corresponding data) for pages using Static Generation. The corresponding data for server-rendered routes is not prefetched.</p>
+
+                            <h3 id="development">Development</h3>
+                            <p>How to start this project:</p>
+                            <ul>
+                                <li><strong>Step 1:</strong> Extract the zip file you downloaded from ThemeForest.</li>
+                                <li><strong>Step 2:</strong> Open Folder <code>1.Zelio_nextjs_template</code> with a code editor (such as <a href="https://code.visualstudio.com/">VS code</a>   )</li>
+                                <li><strong>Step 3:</strong> Run the command: <code>npm install</code></li>
+                                <li><strong>Step 4:</strong> Then, run the command: <code>npm run dev</code></li>
+                                <li><strong>Step 5:</strong> If you need to edit SCSS, run the command: <code>npm run sass</code></li>
+                            </ul>
+
+                            <p>Your project will be opened at: <a href="http://localhost:3000">http://localhost:3000</a> </p>
+
+                            <h3 id="deployment">Deployment</h3>
+                            <p>Push your NextJS app to a Git provider of your choice: GitHub, GitLab, or BitBucket. Your repository can be private or public.</p>
+                            <p><strong>Then, follow these steps:</strong></p>
+                            <ul>
+                                <li>Sign up to Vercel (no credit card is required).</li>
+                                <li>After signing up, you’ll arrive on the “Import Project” page. Under “From Git Repository”, choose the Git provider you use and set up an integration. (Instructions: GitHub / GitLab / BitBucket).</li>
+                                <li>Once that’s set up, click “Import Project From …” and import your Next.js app. It auto-detects that your app is using Next.js and sets up the build configuration for you. No need to change anything — everything should work just fine!</li>
+                                <li>After importing, it’ll deploy your Next.js app and provide you with a deployment URL</li>
+                                <li>To get more help on the deployment checkout <a href="https://vercel.com/solutions/nextjs#the-easiest-way-to-deploy" target="_blank"></a></li>
+                            </ul>
+
+                            <p>Learn more: <a href="https://nextjs.org/docs/pages/building-your-application/deploying">https://nextjs.org/docs/pages/building-your-application/deploying</a> </p>
+                                
+                                <h2 id="update">UPDATE</h2>
+                                <h3>Important Note:</h3>
+                                <p>- Backup <strong>your website</strong> and <strong>template folders</strong> completely to make sure you have a restore point in case of any complications.</p>
+                                <h3>Update using FTP</h3>
+                                <ol>
+                                    <li>Download the latest version of the template to your device.</li>
+                                    <li>Connect to your hosting via FTP software</li>
+                                    <li>Upload the template folder you unzipped to your site folder</li>
+                                    <li>You should be asked to confirm overwriting of this folder and its contents. Confirm the overwrite.</li>
+                                </ol>
+                                <h2 id="credits">SOURCES & CREDITS</h2>
+                                <div class="script-source">
+                                    <ul>
+                                        <li>
+                                            <a href="https://www.pexels.com/" rel="nofollow"  target="_blank">Pexels.com</a>
+                                        </li>
+                                        <li>
+                                            <a href="https://nextjs.org/" rel="nofollow" target="_blank">NextJS Framework</a>
+                                        </li>
+                                        <li>
+                                            <a href="https://www.npmjs.com/package/aos" rel="nofollow" target="_blank">React aos</a>
+                                        </li>
+                                        <li>
+                                            <a href="https://swiperjs.com/react" rel="nofollow" target="_blank">React Swiper</a>
+                                        </li>
+                                        <li>
+                                            <a href="https://www.npmjs.com/package/react-datepicker" rel="nofollow" target="_blank">react-datepicker</a>
+                                        </li>
+                                        <li>
+                                            <a href="https://www.npmjs.com/package/react-modal-video" rel="nofollow" target="_blank">react-modal-video</a>
+                                        </li>
+
+                                        <li>
+                                            <a href="https://www.npmjs.com/package/react-perfect-scrollbar" target="_blank">react-perfect-scrollbar</a>
+                                        </li>
+                                        <li>
+                                            <a href="https://www.npmjs.com/package/wowjs" target="_blank">wowjs</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <h2 id="thanks">THANK YOU</h2>
+                                <p>Thank you so much for using this template.</p>
+                                <p><strong> - AliThemes Team - </strong></p>
+                            </section>
+                        </div>
+                        <!-- End of .filterable-wrapper -->
+                    </main>
+                </div>
+                <!-- End of .main-content -->
+            </div>
+            <!-- End of .container -->
+        </div>
+        <!-- End of .main-content -->
+        <footer class="page-footer">
+            <div class="container-fluid text-center">
+                <p>&copy; 2024, <strong class="text-brand">Zelio</strong> - Personal Portfolio HTML Bootstrap Template</p>
+            </div>
+            <!-- End of .page-footer -->
+        </footer>
+        <!-- End of .page-footer -->
+        <!-- jQuery -->
+        <script src="assets/js/vendor/jquery.min.js"></script>
+        <script src="assets/js/vendor/jquery-migrate.min.js"></script>
+        <script src="assets/js/vendor/bootstrap.bundle.min.js"></script>
+        <script src="assets/js/vendor/perfect-scrollbar.js"></script>
+        <!-- jQuery Easing Plugin -->
+        <script src="assets/js/vendor/easing-1.3.js"></script>
+        <!-- Custom Script -->
+        <script src="assets/js/main.js"></script>
+        <script>
+            if (/MSIE \d|Trident.*rv:/.test(navigator.userAgent)) {
+                document.write('<script src="https://cdn.jsdelivr.net/npm/css-vars-ponyfill@1"><\/script>')
+                document.write('<script src="assets/js/ie.js"><\/script>')
+            }
+        </script>
+        <script type="text/javascript" src="assets/syntax-highlighter/scripts/shCore.js"></script>
+        <script type="text/javascript" src="assets/syntax-highlighter/scripts/shBrushXml.js"></script>
+        <script type="text/javascript" src="assets/syntax-highlighter/scripts/shBrushCss.js"></script>
+        <script type="text/javascript" src="assets/syntax-highlighter/scripts/shBrushJScript.js"></script>
+        <script type="text/javascript" src="assets/syntax-highlighter/scripts/shBrushPhp.js"></script>
+        <script type="text/javascript">
+            SyntaxHighlighter.all()
+        </script>
+    </body>
+</html>
