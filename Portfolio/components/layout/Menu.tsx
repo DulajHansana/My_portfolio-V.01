@@ -1,6 +1,5 @@
 import Link from "next/link"
-import { usePathname } from "next/navigation" // usePathname is more suited for client-side path checking
-
+import { usePathname } from "next/navigation" 
 export default function Menu() {
 	const pathname = usePathname()
 
