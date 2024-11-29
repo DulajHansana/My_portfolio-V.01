@@ -7,7 +7,7 @@ export default function Header2({ scroll, isMobileMenu, handleMobileMenu,isOffCa
     return (
         <>
             <header>
-				<div className="container position-relative"> {/* This is a Comment */}
+				<div className="container position-relative"> 
 					<div className="position-relative">
 						<nav className="navbar navbar-expand-lg navbar-home-2 flex-nowrap z-999 p-0 border border-1 rounded-3">
 							<a className="navbar-menu p-4 text-center square-100 menu-tigger icon_80 icon-shape d-none d-md-flex" data-bs-target=".offCanvas__info" aria-controls="offCanvas__info" onClick={handleOffCanvas}>
