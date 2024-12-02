@@ -5,10 +5,7 @@ export default function Menu() {
 
 	return (
 		<>
-			<ul className="navbar-nav me-auto mb-2 mb-lg-0">
-				<li className="nav-item">
-					<Link href="/" className={pathname === "/" ? "nav-link active" : "nav-link"}>
-						Home
+			<ul
 					</Link>
 				</li>
 				<li className="nav-item">
