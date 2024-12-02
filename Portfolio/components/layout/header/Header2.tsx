@@ -29,7 +29,13 @@ export default function Header2({ scroll, isMobileMenu, handleMobileMenu,isOffCa
 											</li>
 											<li className="nav-item">
 												<Link className="nav-link" href="#services">Services</Link>
-											
+											</li>
+											<li className="nav-item">
+												<Link className="nav-link" href="#portfolio">Portfolio</Link>
+											</li>
+											<li className="nav-item">
+												<Link className="nav-link" href="#contact">Contact</Link>
+											</li>
 										</ul>
 									</div>
 								</div>
