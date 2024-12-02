@@ -11,7 +11,13 @@ export default function MobileMenu({ isMobileMenu, handleMobileMenu }: any) {
 					<div className="mobile-header-logo">
 						<Link className="d-flex main-logo align-items-center d-inline-flex" href="/">
 							<img src="/assets/imgs/footer-1/logo.svg" alt="infinia" />
-						
+							<span className="fs-4 ms-2 text-dark">Dulaj.dev</span>
+						</Link>
+						<div className={`burger-icon burger-icon-white border rounded-3 ${isMobileMenu ? 'burger-close' : ''}`} onClick={handleMobileMenu}>
+							<span className="burger-icon-top" />
+							<span className="burger-icon-mid" />
+							<span className="burger-icon-bottom" />
+						</div>
 					</div>
 					<div className="mobile-header-content-area">
 						<PerfectScrollbar className="perfect-scroll">
