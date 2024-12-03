@@ -56,6 +56,7 @@ export default function Service2() {
 												<p className="fs-7 text-300 fw-regular">Developing scalable and secure payment solutions for <span className="text-secondary-2">e-commerce platforms</span> tailored to your business needs.</p>
 											</div>
 										</div>
+									</div>
 									<div className="text-center pt-60">
 										<p className="text-300">
 											Excited to take on <span className="text-dark">new projects</span> and collaborate. <br />
