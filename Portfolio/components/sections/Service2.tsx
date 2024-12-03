@@ -18,12 +18,14 @@ export default function Service2() {
 										<span className="text-linear-4 d-flex align-items-center"> Cooperation </span>
 									</div>
 									<h3>
-										Designing solutions
+										<span className="text-300" style={{ marginRight: '10px' }}>Tailored</span>
+										Web and App Development
 										<span className="text-300">
-											customized<br />
-											to meet your requirements
-										</span>
-									</h3>
+											<br />
+											to Drive Your Business Forward
+											</span>
+											</h3>
+
 								</div>
 								<div className="container mt-5">
 									<div className="row g-4">
