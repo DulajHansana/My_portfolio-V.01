@@ -139,12 +139,7 @@ export default function Coporation2() {
 													<i className="ri-phone-fill" />
 													<span className="text-300">[phone] <span className="text-secondary-2">+1-234-567-8901</span></span>
 												</Link>
-												<Link href="#">
-													<i className="ri-mail-fill" />
-													<span className="text-300">[email] <span className="text-secondary-2">contact@james.dev</span></span>
-												</Link>
-											</div>
-										</div>
+												<L
 									</div>
 									<div className="position-absolute d-none d-md-block decorate">
 										<div className="rotateme">
