@@ -99,10 +99,7 @@ export default function Home2() {
 						</div>
 					</div>
 				</div>
-				<div className="background position-absolute top-0 start-0 w-100 h-100">
-					<img className="bg-w" src="assets/imgs/home-page-2/hero-1/bg.png" alt="zelio" />
-					<img className="bg-d" src="assets/imgs/home-page-2/hero-1/bg-dark.png" alt="zelio" />
-				</div>
+				
 			</section>
 
 		</>
