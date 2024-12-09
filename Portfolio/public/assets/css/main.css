@@ -14321,3 +14321,10 @@ strong {
   background-color: var(--tc-neutral-200) !important;
 }
 /*# sourceMappingURL=main.css.map */
+/* Custom CSS for the image */
+.experience-img {
+  width: 100%; /* Adjust based on your requirement */
+  max-width: 100px; /* Set max size */
+  height: auto; /* Maintain aspect ratio */
+}
+
