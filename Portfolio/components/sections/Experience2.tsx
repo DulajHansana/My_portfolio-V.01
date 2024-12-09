@@ -28,9 +28,9 @@ export default function Experience2() {
 								<div className="row mt-5">
 									<div className="col-lg-4">
 										<div className="d-flex flex-column gap-2">
-											<Link href="#" className="technology border border-1 rounded-3 p-3">
-												<div className="d-flex align-items-center gap-2">
-													<img src="assets/imgs/home-page-2/experience/google.svg" alt="zelio" />
+											<Link href="https://www.linkedin.com/in/dulaj-hansana-7ab300259/details/projects/" className="technology border border-1 rounded-3 p-3">
+												<div className="d-flex align-items-center gap-3">
+													<img src="assets/imgs/home-page-2/experience/Code.jpg" alt="zelio" />
 													<div className="d-flex flex-column ms-2">
 														<h5 className="mb-1">Google</h5>
 														<span className="text-300">2018 - Present</span>
