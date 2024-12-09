@@ -46,6 +46,7 @@ export default function Experience2() {
                           </div>
                         </div>
                       </Link>
+					 
                       <Link href="https://www.linkedin.com/in/dulaj-hansana-7ab300259/details/experience/" className="technology border border-1 rounded-3 p-3">
                         <div className="d-flex align-items-center gap-2">
                           <img src="assets/imgs/home-page-2/experience/BOC.jpg" alt="zelio" className="experience-img" />
