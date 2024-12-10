@@ -46,9 +46,11 @@ export default function Projects2() {
 											<SwiperSlide>
 												<div className="p-lg-5 p-md-4 p-3 border border-1 mt-5 bg-3">
 													<div className="row">
+                                                    
 														<div className="col-lg-5">
 															<img className="w-100" src="assets/imgs/home-page-2/projects/img-1.png" alt="zelio" />
 														</div>
+    
 														<div className="col-lg-7 ps-lg-5 mt-5 mt-lg-0">
 															<h4 className="text-linear-4">
 																Integrate AI into the <br />
