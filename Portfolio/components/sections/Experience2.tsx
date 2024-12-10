@@ -69,7 +69,7 @@ export default function Experience2() {
                     <h6 className="text-linear-4">Full-stack Web Developer Trainee</h6>
                     <ul className="mt-4">
                       <li className="text-dark mb-3">I was working as Full-stack Web Developer Trainee in Payshia Software solutions. It's a Startup company.
-                      From that I have build and modify Webb application using <span className="text-secondary-2">PHP language.</span> Also how the communication handle in team by using <span className="text-secondary-2">Slack.</span></li>
+                      From that I have build and modify Webb application using <span className="text-secondary-2">PHP language.</span>Other Skills that I experienced <span className="text-secondary-2">Mysql Database, Postman</span>   Also how the communication handle in team by using <span className="text-secondary-2">Slack.</span></li>
                       <li className="text-dark mb-3">Go to my Github see my contribution</li>
                       <Link href="https://github.com/Payshia-Software-Solutions" className="technology border border-1 rounded-2 p-2">Github</Link>
                     </ul>
@@ -80,11 +80,15 @@ export default function Experience2() {
                       <Link href="https://www.linkedin.com/in/dulaj-hansana-7ab300259/details/experience/" className="technology border border-1 rounded-2 p-2">LinkedIn</Link>
                     </ul>
                     <div className="d-flex flex-wrap align-items-center gap-3 mt-7">
-                      <Link href="#" className="text-300 border border-1 px-3 py-1">Python</Link>
-                      <Link href="#" className="text-300 border border-1 px-3 py-1">TensorFlow</Link>
-                      <Link href="#" className="text-300 border border-1 px-3 py-1">Angular</Link>
-                      <Link href="#" className="text-300 border border-1 px-3 py-1">Kubernetes</Link>
-                      <Link href="#" className="text-300 border border-1 px-3 py-1">GCP</Link>
+                      <Link href="#" className="text-300 border border-1 px-3 py-1">HTML5</Link>
+                      <Link href="#" className="text-300 border border-1 px-3 py-1">CSS</Link>
+                      <Link href="#" className="text-300 border border-1 px-3 py-1">React</Link>
+                      <Link href="#" className="text-300 border border-1 px-3 py-1">PHP</Link>
+                      <Link href="#" className="text-300 border border-1 px-3 py-1">JS</Link>
+                      <Link href="#" className="text-300 border border-1 px-3 py-1">Node.js</Link>
+                      <Link href="#" className="text-300 border border-1 px-3 py-1">Slack</Link>
+                      <Link href="#" className="text-300 border border-1 px-3 py-1">Team Work</Link>
+                      <Link href="#" className="text-300 border border-1 px-3 py-1">Customer Service</Link>
                     </div>
                   </div>
                 </div>
