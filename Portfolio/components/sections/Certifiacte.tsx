@@ -37,9 +37,9 @@ export default function Projects2() {
 									<svg className="text-primary-2 me-2" xmlns="http://www.w3.org/2000/svg" width={5} height={6} viewBox="0 0 5 6" fill="none">
 										<circle cx="2.5" cy={3} r="2.5" fill="#A8FF53" />
 									</svg>
-									<span className="text-linear-4 d-flex align-items-center"> Projects </span>
+									<span className="text-linear-4 d-flex align-items-center"> Certificate and Badges </span>
 								</div>
-								<h3>My Recent Works</h3>
+								<h3>Achived Certificate and Badges</h3>
 								<div className="position-relative">
 									<Swiper {...swiperOptions} className="swiper slider-two pb-3 position-relative">
 										<div className="swiper-wrapper">

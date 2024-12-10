@@ -16,7 +16,7 @@ export default function Experience2() {
                   <span className="text-linear-4 d-flex align-items-center">Experience</span>
                 </div>
                 <h3>
-                  +3
+                  +4
                   <span className="text-300"> months of </span>
                   passion &nbsp;
                   <span className="text-300"> 
