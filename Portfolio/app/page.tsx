@@ -7,6 +7,7 @@ import Projects2 from "@/components/sections/Projects2"
 import Service2 from "@/components/sections/Service2"
 import Skills2 from "@/components/sections/Skills2"
 import Static2 from "@/components/sections/Static2"
+import Certificate from "@/components/sections/Certifiacte"
 export default function HomePage2() {
 
 	return (
@@ -18,6 +19,7 @@ export default function HomePage2() {
 				<Experience2 />
 				<Education2 />
 				<Projects2 />
+				<Certificate/>
 				<Skills2 />
 				<Contact2 />
 			</Layout>
