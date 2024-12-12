@@ -69,6 +69,12 @@ export default function Projects2() {
                                                                 <SwiperSlide>
                                                                     <img className="w-100" src="assets/imgs/home-page-2/projects/3.png" alt="Project Image 3" />
                                                                 </SwiperSlide>
+																<SwiperSlide>
+                                                                    <img className="w-100" src="assets/imgs/home-page-2/projects/4.png" alt="Project Image 3" />
+                                                                </SwiperSlide>
+																<SwiperSlide>
+                                                                    <img className="w-100" src="assets/imgs/home-page-2/projects/5.png" alt="Project Image 3" />
+                                                                </SwiperSlide>
                                                             </Swiper>
                                                             <div className="swiper-button-prev-project shadow position-relative"></div>
                                                             <div className="swiper-button-next-project shadow position-relative"></div>
@@ -76,22 +82,23 @@ export default function Projects2() {
     
 														<div className="col-lg-7 ps-lg-5 mt-5 mt-lg-0">
 															<h4 className="text-linear-4">
-																Integrate AI into the <br />
-																ecommerce system
+																Microsoft Learn Certificate
 															</h4>
 															<p>Developed an online learning platform with course management, quizzes, and progress tracking.</p>
 															<ul className="mt-4 list-unstyled">
-																<li className="text-secondary-2 mb-3 border-bottom pb-3">Project Info</li>
+															
 																<li className="text-dark mb-3 border-bottom pb-3">
 																	<div className="d-flex justify-content-between">
-																		<p className="text-dark mb-0 text-end">Client</p>
-																		<p className="text-300 mb-0 text-end">Conceptual JSC</p>
+																		<p className="text-dark mb-0 text-end">Introduction to GitHub</p>
+																		<p className="text-300 mb-0 text-end">Completed on 
+																		9/7/2024</p>
 																	</div>
 																</li>
 																<li className="text-dark mb-3 border-bottom pb-3">
 																	<div className="d-flex justify-content-between">
-																		<p className="text-dark mb-0 text-end">Completion Time</p>
-																		<p className="text-300 mb-0 text-end">6 months</p>
+																		<p className="text-dark mb-0 text-end">Introduction to GitHub administration</p>
+																		<p className="text-300 mb-0 text-end">Completed on 
+																		9/9/2024</p>
 																	</div>
 																</li>
 																<li className="text-dark mb-3 border-bottom pb-3">
