@@ -192,6 +192,44 @@ export default function Projects2() {
 													</div>
 												</div>
 											</SwiperSlide>
+											<SwiperSlide>
+												<div className="p-lg-5 p-md-4 p-3 border border-1 mt-5 bg-3">
+													<div className="row">
+                                                    
+														{/* Project Image Slider */}
+                                                        <div className="col-lg-5">
+                                                            <Swiper
+                                                                modules={[Navigation, Pagination]}
+                                                                slidesPerView={1}
+                                                                navigation={{
+                                                                    nextEl: '.swiper-button-next-project',
+                                                                    prevEl: '.swiper-button-prev-project',
+                                                                }}
+                                                                pagination={{ clickable: true }}
+                                                                loop={true}
+                                                                className="swiper project-image-slider"
+                                                            >
+                                                                <SwiperSlide>
+                                                                    <img className="w-100" src="assets/imgs/home-page-2/projects/7.png" alt="Project Image 1" />
+                                                                </SwiperSlide>
+                                                            </Swiper>
+                                                            <div className="swiper-button-prev-project shadow position-relative"></div>
+                                                            <div className="swiper-button-next-project shadow position-relative"></div>
+                                                        </div>
+    
+														<div className="col-lg-7 ps-lg-5 mt-5 mt-lg-0">
+															<h4 className="text-linear-4">
+																Microsoft Learn Certificate
+															</h4>
+															<p>I have successfully completed the ISO/IEC 20000 IT Service Management Associate certification through SkillFront. </p>
+															
+															<div className="d-flex flex-wrap align-items-center gap-3 mt-7">
+					                                         &nbsp; &nbsp;
+															</div>
+														</div>
+													</div>
+												</div>
+											</SwiperSlide>
 											
 											
 										</div>
