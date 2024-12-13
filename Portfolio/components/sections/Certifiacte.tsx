@@ -222,7 +222,6 @@ export default function Projects2() {
 															ISO/IEC 20000 IT Service Management Associate certificate
 															</h4>
 															<p>I have successfully completed the ISO/IEC 20000 IT Service Management Associate certification through SkillFront. </p>
-															
 															<div className="d-flex flex-wrap align-items-center gap-3 mt-7">
 					                                         &nbsp; &nbsp;
 															</div>
@@ -288,6 +287,9 @@ export default function Projects2() {
                                                                 <SwiperSlide>
                                                                     <img className="w-100" src="assets/imgs/home-page-2/projects/9.png" alt="Project Image 1" />
                                                                 </SwiperSlide>
+																<SwiperSlide>
+                                                                    <img className="w-100" src="assets/imgs/home-page-2/projects/11.png" alt="Project Image 1" />
+                                                                </SwiperSlide>
                                                             </Swiper>
                                                             <div className="swiper-button-prev-project shadow position-relative"></div>
                                                             <div className="swiper-button-next-project shadow position-relative"></div>
@@ -295,9 +297,100 @@ export default function Projects2() {
     
 														<div className="col-lg-7 ps-lg-5 mt-5 mt-lg-0">
 															<h4 className="text-linear-4">
-															Microsoft Sri Lanka October Champ
+															Microsoft Sri Lanka Champ
 															</h4>
-															<p>  I participated in the Microsoft Sri Lanka October Champ and earned a certificate in recognition of my efforts! </p>
+															<p>  I participated in the Microsoft Sri Lanka Champs and earned a certificate in recognition of my efforts! </p>
+                                                            <ul className="mt-4 list-unstyled">
+															
+																<li className="text-dark mb-3 border-bottom pb-3">
+																	<div className="d-flex justify-content-between">
+																		<p className="text-dark mb-0 text-end">Microsoft Sri Lanka October Champ</p>
+																		<p className="text-300 mb-0 text-end">Participated on 
+																		18/10/2024</p>
+																	</div>
+																</li>
+																<li className="text-dark mb-3 border-bottom pb-3">
+																	<div className="d-flex justify-content-between">
+																		<p className="text-dark mb-0 text-end">Microsoft Sri Lanka November Champ</p>
+																		<p className="text-300 mb-0 text-end">Participated on 
+																		30/11/2024</p>
+																	</div>
+																</li>
+																</ul>
+															<div className="d-flex flex-wrap align-items-center gap-3 mt-7">
+					                                         &nbsp; &nbsp;
+															</div>
+														</div>
+													</div>
+												</div>
+											</SwiperSlide><SwiperSlide>
+												<div className="p-lg-5 p-md-4 p-3 border border-1 mt-5 bg-3">
+													<div className="row">
+                                                    
+														{/* Project Image Slider */}
+                                                        <div className="col-lg-5">
+                                                            <Swiper
+                                                                modules={[Navigation, Pagination]}
+                                                                slidesPerView={1}
+                                                                navigation={{
+                                                                    nextEl: '.swiper-button-next-project',
+                                                                    prevEl: '.swiper-button-prev-project',
+                                                                }}
+                                                                pagination={{ clickable: true }}
+                                                                loop={true}
+                                                                className="swiper project-image-slider"
+                                                            >
+                                                                <SwiperSlide>
+                                                                    <img className="w-100" src="assets/imgs/home-page-2/projects/8.jpg" alt="Project Image 1" />
+                                                                </SwiperSlide>
+                                                            </Swiper>
+                                                            <div className="swiper-button-prev-project shadow position-relative"></div>
+                                                            <div className="swiper-button-next-project shadow position-relative"></div>
+                                                        </div>
+    
+														<div className="col-lg-7 ps-lg-5 mt-5 mt-lg-0">
+															<h4 className="text-linear-4">
+															Postman API 101 Workshop!
+															</h4>
+															<p> I had the opportunity to explore how APIs can simplify development workflows and integrate powerful features without starting from scratch. </p>
+															
+															<div className="d-flex flex-wrap align-items-center gap-3 mt-7">
+					                                         &nbsp; &nbsp;
+															</div>
+														</div>
+													</div>
+												</div>
+											</SwiperSlide>
+											<SwiperSlide>
+												<div className="p-lg-5 p-md-4 p-3 border border-1 mt-5 bg-3">
+													<div className="row">
+                                                    
+														{/* Project Image Slider */}
+                                                        <div className="col-lg-5">
+                                                            <Swiper
+                                                                modules={[Navigation, Pagination]}
+                                                                slidesPerView={1}
+                                                                navigation={{
+                                                                    nextEl: '.swiper-button-next-project',
+                                                                    prevEl: '.swiper-button-prev-project',
+                                                                }}
+                                                                pagination={{ clickable: true }}
+                                                                loop={true}
+                                                                className="swiper project-image-slider"
+                                                            >
+                                                                <SwiperSlide>
+                                                                    <img className="w-100" src="assets/imgs/home-page-2/projects/10.png" alt="Project Image 1" />
+                                                                </SwiperSlide>
+                                                            </Swiper>
+                                                            <div className="swiper-button-prev-project shadow position-relative"></div>
+                                                            <div className="swiper-button-next-project shadow position-relative"></div>
+                                                        </div>
+    
+														<div className="col-lg-7 ps-lg-5 mt-5 mt-lg-0">
+															<h4 className="text-linear-4">
+															Pre-Conference Workshop in iCITE
+															</h4>
+															<p> I’ve earned my certificate in certificate of participation at the Pre-Conference Workshop on Prompt Engineering during the International Conference on Innovation and Emerging Technologies 2024! </p>
 															
 															<div className="d-flex flex-wrap align-items-center gap-3 mt-7">
 					                                         &nbsp; &nbsp;
