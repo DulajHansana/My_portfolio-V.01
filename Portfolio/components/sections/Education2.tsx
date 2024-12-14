@@ -45,7 +45,15 @@ export default function Education2() {
 													</div>
 												</div>
 											</li>
-											
+											<li className="position-relative z-1 mb-3">
+												<div className="d-flex gap-2">
+													<p className="text-300 text-nowrap fw-regular mb-0">2013-2015:</p>
+													<div>
+														<span className="text-primary-2">University of Washington</span>
+														<p className="text-dark">Certification in React and Redux, Node.js Developer Course</p>
+													</div>
+												</div>
+											</li>
 										</ul>
 										<div className="line-left position-absolute top-0 border-start z-0" />
 									</div>
