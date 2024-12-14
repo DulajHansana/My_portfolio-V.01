@@ -5,7 +5,13 @@ export default function Contact2() {
 		<>
 
 			<section id="contact" className="section-contact-2 position-relative pb-60 overflow-hidden">
-				<div classN
+				<div className="container position-relative z-1">
+					<div className="row align-items-center">
+						<div className="col-lg-7 pb-5 pb-lg-0">
+							<div className="position-relative">
+								<div className="position-relative z-2">
+									<h3 className="text-primary-2 mb-3">Let’s connect</h3>
+									<form action="#">
 										<div className="row g-3">
 											<div className="col-md-6 ">
 												<input type="text" className="form-control bg-3 border border-1 rounded-3" id="name" name="name" placeholder="Your name" aria-label="username" />
