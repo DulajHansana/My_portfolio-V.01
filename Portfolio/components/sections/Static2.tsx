@@ -47,15 +47,7 @@ export default function Static2() {
 									</div>
 								</div>
 								<div className="col-lg-auto col-md-6 text-center text-lg-start">
-									<div className="counter-item-cover counter-item">
-										<div className="content mx-auto">
-											<i className="ri-award-line text-primary-2" />
-											<h2 className="text-300 my-0 fs-50">
-												<CountUp className="odometer text-dark fw-medium" enableScrollSpy={true} end={25} />
-												<span className="fs-50 text-300 mb-0">+</span>
-											</h2>
-											<p className="fs-6 mb-0 text-dark">Certifications and Badges</p>
-										</div>
+									
 									</div>
 								</div>
 							</div>
