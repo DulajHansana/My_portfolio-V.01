@@ -58,7 +58,12 @@ export default function Service2() {
 											
 										</div>
 									</div>
-									
+									<div className="text-center pt-60">
+										<p className="text-300">
+											Excited to take on <span className="text-dark">new projects</span> and collaborate. <br />
+											Let's chat about your ideas. <Link href="#" className="text-primary-2">Reach out!</Link>
+										</p>
+									</div>
 								</div>
 							</div>
 							<img className="position-absolute top-0 start-0 z-0" src="assets/imgs/home-page-2/services/bg.png" alt="zelio" />
