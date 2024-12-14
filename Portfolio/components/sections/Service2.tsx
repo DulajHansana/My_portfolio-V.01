@@ -39,14 +39,7 @@ export default function Service2() {
 											</div>
 										</div>
 										<div className="col-lg-4 col-md-6">
-										     <div className="card-servies-2 rounded-2 h-100 hover-up">
-												<svg xmlns="http://www.w3.org/2000/svg" width={24} height={24} viewBox="0 0 24 24" fill="none">
-													<path d="M4.00436 6.41662L0.761719 3.17398L2.17593 1.75977L5.41857 5.00241H20.6603C21.2126 5.00241 21.6603 5.45013 21.6603 6.00241C21.6603 6.09973 21.6461 6.19654 21.6182 6.28976L19.2182 14.2898C19.0913 14.7128 18.7019 15.0025 18.2603 15.0025H6.00436V17.0025H17.0044V19.0025H5.00436C4.45207 19.0025 4.00436 18.5547 4.00436 18.0025V6.41662ZM6.00436 7.00241V13.0025H17.5163L19.3163 7.00241H6.00436ZM5.50436 23.0025C4.67593 23.0025 4.00436 22.3309 4.00436 21.5025C4.00436 20.674 4.67593 20.0025 5.50436 20.0025C6.33279 20.0025 7.00436 20.674 7.00436 21.5025C7.00436 22.3309 6.33279 23.0025 5.50436 23.0025ZM17.5044 23.0025C16.6759 23.0025 16.0044 22.3309 16.0044 21.5025C16.0044 20.674 16.6759 20.0025 17.5044 20.0025C18.3328 20.0025 19.0044 20.674 19.0044 21.5025C19.0044 22.3309 18.3328 23.0025 17.5044 23.0025Z" fill="#1F1F24" />
-												</svg>
-												<h6 className="my-3 fw-medium">E-commerce Solutions</h6>
-												<p className="fs-7 text-300 fw-regular">Developing scalable and secure payment solutions for <span className="text-secondary-2">e-commerce platforms</span> tailored to your business needs.</p>
-											</div>
-										</div>
+										     
 										<div className="col-lg-4 col-md-6">
 										<div className="card-servies-2 rounded-2 h-100 hover-up">
 												<svg xmlns="http://www.w3.org/2000/svg" width={24} height={24} viewBox="0 0 24 24" fill="none">
