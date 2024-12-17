@@ -20,37 +20,29 @@ export default function Education2() {
 										<ul className="ps-3">
 											<li className="position-relative z-1 mb-3">
 												<div className="d-flex gap-2">
-													<p className="text-300 text-nowrap fw-regular mb-0">2020-2024:</p>
+													<p className="text-300 text-nowrap fw-regular mb-0">2022-2026:</p>
 													<div>
-														<span className="text-primary-2">MIT</span>
-														<p className="text-dark">Bachelor’s Degree in Computer Science</p>
+														<span className="text-primary-2">University of Sri Jayawardhenepura</span>
+														<p className="text-dark">Bachelor’s Degree in Information and Comunication Technology</p>
+														<p className="text-dark">Current GPA 3.6</p>
 													</div>
 												</div>
 											</li>
 											<li className="position-relative z-1 mb-3">
 												<div className="d-flex gap-2">
-													<p className="text-300 text-nowrap fw-regular mb-0">2018-2019:</p>
+													<p className="text-300 text-nowrap fw-regular mb-0">2018-2020:</p>
 													<div>
-														<span className="text-primary-2">Harvard University</span>
-														<p className="text-dark">Certification in React and Redux, Node.js Developer Course</p>
+														<span className="text-primary-2">Swarnajayanthi Collage Kegalle</span>
+														<p className="text-dark">G.C.E.Advance Level (2020)</p>
 													</div>
 												</div>
 											</li>
 											<li className="position-relative z-1 mb-3">
 												<div className="d-flex gap-2">
-													<p className="text-300 text-nowrap fw-regular mb-0">2015-2016:</p>
+													<p className="text-300 text-nowrap fw-regular mb-0">2011-2017:</p>
 													<div>
-														<span className="text-primary-2">Stanford University</span>
-														<p className="text-dark">Certification in Full Stack Web Development</p>
-													</div>
-												</div>
-											</li>
-											<li className="position-relative z-1 mb-3">
-												<div className="d-flex gap-2">
-													<p className="text-300 text-nowrap fw-regular mb-0">2013-2015:</p>
-													<div>
-														<span className="text-primary-2">University of Washington</span>
-														<p className="text-dark">Certification in React and Redux, Node.js Developer Course</p>
+														<span className="text-primary-2"> Parakumba National Collage Dedigama</span>
+														<p className="text-dark"> G.C.E.Ordinary Level (2017)</p>
 													</div>
 												</div>
 											</li>
