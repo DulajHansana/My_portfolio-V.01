@@ -61,49 +61,6 @@ export default function Education2() {
 								</div>
 							</div>
 						</div>
-						<div className="col-lg-6 pt-3">
-							<div className="bg-3 rounded-3 border border-1 p-md-6 p-3 position-relative h-100 overflow-hidden">
-								<div className="d-flex align-items-center">
-									<svg xmlns="http://www.w3.org/2000/svg" width={32} height={32} viewBox="0 0 32 32" fill="none">
-										<path className="fill-primary-2" d="M20 4H28V10.6667H25.3333V6.66667H20V4ZM12 4V6.66667H6.66667V10.6667H4V4H12ZM20 28V25.3333H25.3333V21.3333H28V28H20ZM12 28H4V21.3333H6.66667V25.3333H12V28ZM4 14.6667H28V17.3333H4V14.6667Z" fill="#A8FF53" />
-									</svg>
-									<h2 className="mb-0 ms-2">Researched</h2>
-								</div>
-								<div className="d-flex flex-column h-100 position-relative mt-5">
-									<ul className="ps-3">
-										<li className="position-relative z-1 mb-3">
-											<div className="d-flex gap-2">
-												<p className="text-300 text-nowrap fw-regular mb-0">2023-2024:</p>
-												<div>
-													<span className="text-primary-2">Advanced Data Analytics with Big Data Tools</span>
-													<p className="text-dark">Utilized big data tools for advanced analytics and insights.</p>
-												</div>
-											</div>
-										</li>
-										<li className="position-relative z-1 mb-3">
-											<div className="d-flex gap-2">
-												<p className="text-300 text-nowrap fw-regular mb-0">2021-2013:</p>
-												<div>
-													<span className="text-primary-2">Cloud-Native Application Architectures</span>
-													<p className="text-dark">Studied best practices for designing cloud-native applications.</p>
-												</div>
-											</div>
-										</li>
-										<li className="position-relative z-1 mb-3">
-											<div className="d-flex gap-2">
-												<p className="text-300 text-nowrap fw-regular mb-0">2019-2020:</p>
-												<div>
-													<span className="text-primary-2">AI-Driven User Experience Personalization</span>
-													<p className="text-dark">Leveraged AI to personalize user experiences based on behavior.</p>
-												</div>
-											</div>
-										</li>
-									</ul>
-									<div className="line-left position-absolute top-0 border-start z-0" />
-								</div>
-								<div className="bg-overlay position-absolute bottom-0 start-0 z-1" />
-							</div>
-						</div>
 					</div>
 				</div>
 			</section>
