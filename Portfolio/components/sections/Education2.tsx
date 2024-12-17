@@ -24,7 +24,7 @@ export default function Education2() {
 													<div>
 														<span className="text-primary-2">University of Sri Jayawardhenepura</span>
 														<p className="text-dark">Bachelor’s Degree in Information and Comunication Technology</p>
-														<p className="text-dark">Current GPA 3.6</p>
+														<p>Specialized in Software Technology<br></br>Current GPA 3.6</p>
 													</div>
 												</div>
 											</li>
@@ -34,6 +34,7 @@ export default function Education2() {
 													<div>
 														<span className="text-primary-2">Swarnajayanthi Collage Kegalle</span>
 														<p className="text-dark">G.C.E.Advance Level (2020)</p>
+														<p>Result A2, B1<br></br>District Rank 4</p>
 													</div>
 												</div>
 											</li>
@@ -43,6 +44,7 @@ export default function Education2() {
 													<div>
 														<span className="text-primary-2"> Parakumba National Collage Dedigama</span>
 														<p className="text-dark"> G.C.E.Ordinary Level (2017)</p>
+														<p>Result A5, B2, C2</p>
 													</div>
 												</div>
 											</li>
