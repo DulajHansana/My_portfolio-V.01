@@ -7,7 +7,7 @@ export default function Education2() {
 			<section id="resume" className="section-education">
 				<div className="container">
 					<div className="row">
-						<div className="col-lg-6 pt-3">
+						<div className="col-lg-12 pt-6">
 							<div className="rounded-3 border border-1 position-relative h-100 overflow-hidden">
 								<div className="box-linear-animation p-md-6 p-3 ">
 									<div className="d-flex align-items-center">
