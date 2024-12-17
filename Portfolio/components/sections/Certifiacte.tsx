@@ -150,6 +150,9 @@ export default function Projects2() {
                                                                 <SwiperSlide>
                                                                     <img className="w-100" src="assets/imgs/home-page-2/projects/6.jpg" alt="Project Image 1" />
                                                                 </SwiperSlide>
+																<SwiperSlide>
+                                                                    <img className="w-100" src="assets/imgs/home-page-2/projects/12.png" alt="Project Image 1" />
+                                                                </SwiperSlide>
                                                             </Swiper>
                                                             <div className="swiper-button-prev-project shadow position-relative"></div>
                                                             <div className="swiper-button-next-project shadow position-relative"></div>
@@ -166,7 +169,16 @@ export default function Projects2() {
 															
 																<li className="text-dark mb-3 border-bottom pb-3">
 																	<div className="d-flex justify-content-between">
-																		<p className="text-dark mb-0 text-end">Resource Management: Organized resources for improved.</p>
+																		<p className="text-dark mb-0 text-end">Azure Resource Management</p>
+																		<p className="text-300 mb-0 text-end">Completed on 
+																		17/10/2024</p>
+																	</div>
+																</li>
+																<li className="text-dark mb-3 border-bottom pb-3">
+																	<div className="d-flex justify-content-between">
+																		<p className="text-dark mb-0 text-end">How to become a MLSA</p>
+																		<p className="text-300 mb-0 text-end">Completed on 
+																		14/12/2024</p>
 																	</div>
 																</li>
 																</ul>	
