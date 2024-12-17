@@ -159,8 +159,8 @@ export default function Projects2() {
 															<h4 className="text-linear-4">
 															Microsoft Learn Student Ambassadors
 															</h4>
-															<p>I've successfully completed the Microsoft Learn Student Ambassadors session on Azure Resource Management!
-															During this session, I gained invaluable insights into several key aspects of Azure Resource Management, including:
+															<p>I've successfully completed the Microsoft Learn Student Ambassadors sessions on Azure Resource Management!
+															During this sessions, I gained invaluable insights into several key aspects of Azure Resource Management,
 															</p>
 															<ul className="mt-4 list-unstyled">
 															
@@ -169,22 +169,7 @@ export default function Projects2() {
 																		<p className="text-dark mb-0 text-end">Resource Management: Organized resources for improved.</p>
 																	</div>
 																</li>
-																<li className="text-dark mb-3 border-bottom pb-3">
-																	<div className="d-flex justify-content-between">
-																		<p className="text-dark mb-0 text-end">Security: Implemented RBAC and policies for secure, authorized access.</p>
-																	</div>
-																</li>
-																<li className="text-dark mb-3 border-bottom pb-3">
-																	<div className="d-flex justify-content-between">
-																		<p className="text-dark mb-0 text-end">Cost Optimization: Tracked and optimized resource usage to reduce costs.</p>
-																	</div>
-																</li>
-																<li className="text-dark mb-3 border-bottom pb-3">
-																	<div className="d-flex justify-content-between">
-																		<p className="text-dark mb-0 text-end">Automation: Used ARM templates to streamline deployments.</p>
-																	</div>
-																</li>
-															</ul>
+																</ul>	
 															<div className="d-flex flex-wrap align-items-center gap-3 mt-7">
 					                                         &nbsp; &nbsp;
 															</div>
