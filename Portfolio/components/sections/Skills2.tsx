@@ -44,7 +44,7 @@ export default function Skills2() {
 																<Link href="#" className="brand-logo icon_80 icon-shape rounded-3">
 																	<img src="assets/imgs/home-page-2/hero-1/icon-2.svg" alt="brand" />
 																</Link>
-																<span className="tool-tip">Firebase</span>
+																<span className="tool-tip">JavaScript</span>
 															</li>
 															<li className="carouselTicker__item mt-6">
 																<Link href="#" className="brand-logo icon_80 icon-shape rounded-3">
@@ -69,25 +69,19 @@ export default function Skills2() {
 																<Link href="#" className="brand-logo icon_80 icon-shape rounded-3">
 																	<img src="assets/imgs/home-page-2/hero-1/icon-7.svg" alt="brand" />
 																</Link>
-																<span className="tool-tip">VueJS</span>
+																<span className="tool-tip">HTML5</span>
 															</li>
 															<li className="carouselTicker__item mt-6">
 																<Link href="#" className="brand-logo icon_80 icon-shape rounded-3">
 																	<img src="assets/imgs/home-page-2/hero-1/icon-8.svg" alt="brand" />
 																</Link>
-																<span className="tool-tip">Angular</span>
+																<span className="tool-tip">Dart</span>
 															</li>
 															<li className="carouselTicker__item mt-6">
 																<Link href="#" className="brand-logo icon_80 icon-shape rounded-3">
 																	<img src="assets/imgs/home-page-2/hero-1/icon-9.svg" alt="brand" />
 																</Link>
-																<span className="tool-tip">Laravel</span>
-															</li>
-															<li className="carouselTicker__item mt-6">
-																<Link href="#" className="brand-logo icon_80 icon-shape rounded-3">
-																	<img src="assets/imgs/home-page-2/hero-1/icon-5.svg" alt="brand" />
-																</Link>
-																<span className="tool-tip">Tailwind</span>
+																<span className="tool-tip">Mysql</span>
 															</li>
 														</ul>
 													</Marquee>
@@ -108,29 +102,29 @@ export default function Skills2() {
 															<li className="mb-3">
 																<div className="d-flex flex-column flex-md-row gap-2">
 																	<p className="text-dark text-nowrap mb-0">Back-End:</p>
-																	<span className="text-300">Node.js, Express, Python, Django</span>
+																	<span className="text-300">Node.js</span>
 																</div>
 															</li>
 															<li className="mb-3">
 																<div className="d-flex flex-column flex-md-row gap-2">
 																	<p className="text-dark text-nowrap mb-0">Databases:</p>
-																	<span className="text-300">MySQL, PostgreSQL, MongoDB</span>
+																	<span className="text-300">MySQL,MongoDB</span>
 																</div>
 															</li>
 															<li className="mb-3">
 																<div className="d-flex flex-column flex-md-row gap-2">
 																	<p className="text-dark text-nowrap mb-0">Tools &amp; Platforms:</p>
-																	<span className="text-300">Git, Docker, AWS, Heroku</span>
+																	<span className="text-300">Git, AWS, Azure</span>
 																</div>
 															</li>
 															<li className="mb-3">
 																<div className="d-flex flex-column flex-md-row gap-2">
 																	<p className="text-dark text-nowrap mb-0">Others:</p>
-																	<span className="text-300">RESTful APIs, GraphQL, Agile Methodologies</span>
+																	<span className="text-300">RESTful APIs, Figma, UI/UX</span>
 																</div>
 															</li>
 														</ul>
-													</div>
+													</div> 
 												</div>
 											</div>
 										</div>
