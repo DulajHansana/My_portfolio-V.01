@@ -46,9 +46,36 @@ export default function Projects2() {
 											<SwiperSlide>
 												<div className="p-lg-5 p-md-4 p-3 border border-1 mt-5 bg-3">
 													<div className="row">
-														<div className="col-lg-5">
-															<img className="w-100" src="assets/imgs/home-page-2/projects/img-1.png" alt="zelio" />
-														</div>
+														{/* Project Image Slider */}
+                                                        <div className="col-lg-5">
+                                                            <Swiper
+                                                                modules={[Navigation, Pagination]}
+                                                                slidesPerView={1}
+                                                                navigation={{
+                                                                    nextEl: '.swiper-button-next-project',
+                                                                    prevEl: '.swiper-button-prev-project',
+                                                                }}
+                                                                pagination={{ clickable: true }}
+                                                                loop={true}
+                                                                className="swiper project-image-slider"
+                                                            >
+                                                                <SwiperSlide>
+                                                                    <img className="w-100" src="assets/imgs/home-page-2/projects/13.jpeg" alt="Project Image 1" />
+                                                                </SwiperSlide>
+                                                                <SwiperSlide>
+                                                                    <img className="w-100" src="assets/imgs/home-page-2/projects/14.jpeg" alt="Project Image 2" />
+                                                                </SwiperSlide>
+                                                                <SwiperSlide>
+                                                                    <img className="w-100" src="assets/imgs/home-page-2/projects/15.jpeg" alt="Project Image 3" />
+                                                                </SwiperSlide>
+																<SwiperSlide>
+                                                                    <img className="w-100" src="assets/imgs/home-page-2/projects/16.jpeg" alt="Project Image 3" />
+                                                                </SwiperSlide>
+																
+                                                            </Swiper>
+                                                            <div className="swiper-button-prev-project shadow position-relative"></div>
+                                                            <div className="swiper-button-next-project shadow position-relative"></div>
+                                                        </div>
 														<div className="col-lg-7 ps-lg-5 mt-5 mt-lg-0">
 															<h4 className="text-linear-4">
 															Cafeteria Automation System<br />
