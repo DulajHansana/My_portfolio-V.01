@@ -51,8 +51,8 @@ export default function Projects2() {
 														</div>
 														<div className="col-lg-7 ps-lg-5 mt-5 mt-lg-0">
 															<h4 className="text-linear-4">
-																Integrate AI into the <br />
-																ecommerce system
+															Cafeteria_Automation_System<br />
+															
 															</h4>
 															<p>Developed an online learning platform with course management, quizzes, and progress tracking.</p>
 															<ul className="mt-4 list-unstyled">
