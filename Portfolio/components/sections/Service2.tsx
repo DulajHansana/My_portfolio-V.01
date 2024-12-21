@@ -9,7 +9,13 @@ export default function Service2() {
 				<div className="container">
 					<div className="rounded-3 border border-1 position-relative overflow-hidden">
 						<div className="box-linear-animation position-relative z-1 p-lg-5 p-1 p-md-4">
-							<dr-4 d-flex align-items-center"> Creative </span>
+							<div className="position-relative z-1">
+								<div className="text-center">
+									<div className="d-flex align-items-center justify-content-center">
+										<svg className="text-primary-2 me-2" xmlns="http://www.w3.org/2000/svg" width={5} height={6} viewBox="0 0 5 6" fill="none">
+											<circle cx="2.5" cy={3} r="2.5" fill="#A8FF53" />
+										</svg>
+										<span className="text-linear-4 d-flex align-items-center"> Creative </span>
 									</div>
 									<h3>
 										<span className="text-300" style={{ marginRight: '10px' }}>Tailored</span>
