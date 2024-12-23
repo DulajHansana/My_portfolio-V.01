@@ -167,7 +167,7 @@ export default function Projects2() {
 																<li className="text-dark mb-3 border-bottom pb-3">
 																	<div className="d-flex justify-content-between">
 																		<p className="text-dark mb-0 text-end">Technologies</p>
-																		<p className="text-300 mb-0 text-end">C#, VS Code</p>
+																		<p className="text-300 mb-0 text-end">C#, Visual Stidio</p>
 																	</div>
 																</li>
 															</ul>
