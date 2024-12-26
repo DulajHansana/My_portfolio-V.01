@@ -386,7 +386,10 @@ export default function Projects2() {
                                                                 loop={true}
                                                                 className="swiper project-image-slider"
                                                             >
-                                                                
+                                                                <SwiperSlide>
+                                                                    <img className="w-100" src="assets/imgs/home-page-2/projects/25.png" alt="Project Image 1" />
+                                                                </SwiperSlide>
+                                                            </Swiper>
                                                             <div className="swiper-button-prev-project shadow position-relative"></div>
                                                             <div className="swiper-button-next-project shadow position-relative"></div>
                                                         </div>
