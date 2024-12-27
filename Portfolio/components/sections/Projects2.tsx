@@ -270,13 +270,7 @@ export default function Projects2() {
                                                                 className="swiper project-image-slider"
                                                             >
                                                                 <SwiperSlide>
-                                                                    <img className="w-100" src="assets/imgs/home-page-2/projects/21.png" alt="Project Image 1" />
-                                                                </SwiperSlide>
-                                                                <SwiperSlide>
-                                                                    <img className="w-100" src="assets/imgs/home-page-2/projects/20.png" alt="Project Image 2" />
-                                                                </SwiperSlide>
-                                                                <SwiperSlide>
-                                                                    <img className="w-100" src="assets/imgs/home-page-2/projects/22.png" alt="Project Image 3" />
+                                                                    <img className="w-100" src="assets/imgs/home-page-2/projects/26.png" alt="Project Image 1" />
                                                                 </SwiperSlide>					
                                                             </Swiper>
                                                             <div className="swiper-button-prev-project shadow position-relative"></div>
