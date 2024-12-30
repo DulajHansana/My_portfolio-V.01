@@ -318,6 +318,71 @@ export default function Projects2() {
 													</div>
 												</div>
 											</SwiperSlide>
+											<SwiperSlide>
+												<div className="p-lg-5 p-md-4 p-3 border border-1 mt-5 bg-3">
+													<div className="row">
+														{/* Project Image Slider */}
+                                                        <div className="col-lg-5">
+                                                            <Swiper
+                                                                modules={[Navigation, Pagination]}
+                                                                slidesPerView={1}
+                                                                navigation={{
+                                                                    nextEl: '.swiper-button-next-project',
+                                                                    prevEl: '.swiper-button-prev-project',
+                                                                }}
+                                                                pagination={{ clickable: true }}
+                                                                loop={true}
+                                                                className="swiper project-image-slider"
+                                                            >
+                                                                <SwiperSlide>
+                                                                    <img className="w-100" src="assets/imgs/home-page-2/projects/27.gif" alt="Project Image 1" />
+                                                                </SwiperSlide>
+																<SwiperSlide>
+                                                                    <img className="w-100" src="assets/imgs/home-page-2/projects/26.png" alt="Project Image 1" />
+                                                                </SwiperSlide>					
+                                                            </Swiper>
+                                                            <div className="swiper-button-prev-project shadow position-relative"></div>
+                                                            <div className="swiper-button-next-project shadow position-relative"></div>
+                                                        </div>
+														<div className="col-lg-7 ps-lg-5 mt-5 mt-lg-0">
+															<h4 className="text-linear-4">
+															Redesign of the HUTCH Mobile App Homepage!
+																
+															</h4>
+															<p>After thoroughly exploring user experience and interface design, I’m excited to unveil my redesigned version of the Hutch Mobile App homepage. By using Figma Design</p>
+															<ul className="mt-4 list-unstyled">
+																<li className="text-secondary-2 mb-3 border-bottom pb-3">Project Info</li>
+																<li className="text-dark mb-3 border-bottom pb-3">
+																	<div className="d-flex justify-content-between">
+																		<p className="text-dark mb-0 text-end">Client</p>
+																		<p className="text-300 mb-0 text-end">USJP</p>
+																	</div>
+																</li>
+																<li className="text-dark mb-3 border-bottom pb-3">
+																	<div className="d-flex justify-content-between">
+																		<p className="text-dark mb-0 text-end">Completion Time</p>
+																		<p className="text-300 mb-0 text-end">1 Week</p>
+																	</div>
+																</li>
+																<li className="text-dark mb-3 border-bottom pb-3">
+																	<div className="d-flex justify-content-between">
+																		<p className="text-dark mb-0 text-end">Technologies</p>
+																		<p className="text-300 mb-0 text-end">UX/UI, Figma Design</p>
+																	</div>
+																</li>
+															</ul>
+															<div className="d-flex flex-wrap align-items-center gap-3 mt-7">
+																<Link href="https://www.figma.com/design/uwONSYSPRlCVbruOajHviU/HUTCH-App?node-id=0-1&t=ZdYHcFEwUqJYzy4g-1" className="text-300 border-bottom border-1 px-2 pb-2 link-hover">
+																	<svg xmlns="http://www.w3.org/2000/svg" width={13} height={13} viewBox="0 0 13 13" fill="none">
+																		<path d="M11.0037 3.91421L2.39712 12.5208L0.98291 11.1066L9.5895 2.5H2.00373V0.5H13.0037V11.5H11.0037V3.91421Z" fill="#8F8F92" />
+																	</svg>
+																	Live Demo
+																</Link>
+															</div>
+														</div>
+													</div>
+												</div>
+											</SwiperSlide>
 										</div>
 									</Swiper>
 									
