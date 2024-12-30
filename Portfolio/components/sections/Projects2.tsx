@@ -194,10 +194,7 @@ export default function Projects2() {
                                                                 slidesPerView={1}
                                                                 navigation={{
                                                                     nextEl: '.swiper-button-next-project',
-                                                                    prevEl: '.swiper-button-prev-project',
-                                                                }}
-                                                                pagination={{ clickable: true }}
-                                                                loop={true}
+                                                                 
                                                                 className="swiper project-image-slider"
                                                             >
                                                                 <SwiperSlide>
