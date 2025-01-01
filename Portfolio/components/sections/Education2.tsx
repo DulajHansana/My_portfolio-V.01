@@ -44,7 +44,7 @@ export default function Education2() {
 													<div>
 														<span className="text-primary-2"> Parakumba National Collage Dedigama</span>
 														<p className="text-dark"> G.C.E.Ordinary Level (2017)</p>
-														<p>Result A5, B2, C2</p>
+														<p>Result A5, B23, C2</p>
 													</div>
 												</div>
 											</li>
