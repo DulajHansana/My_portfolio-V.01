@@ -40,12 +40,7 @@ export default function Education2() {
 											</li>
 											<li className="position-relative z-1 mb-3">
 												<div className="d-flex gap-2">
-													<p className="text-300 text-nowrap fw-regular mb-0">2011-2017:</p>
-													<div>
-														<span className="text-primary-2"> Parakumba National Collage Dedigama</span>
-														<p className="text-dark"> G.C.E.Ordinary Level (2017)</p>
-														<p>Result A5, B2, C2</p>
-													</div>
+										
 												</div>
 											</li>
 										</ul>
