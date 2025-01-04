@@ -164,12 +164,7 @@ export default function Projects2() {
 																		<p className="text-300 mb-0 text-end">1 Week</p>
 																	</div>
 																</li>
-																<li className="text-dark mb-3 border-bottom pb-3">
-																	<div className="d-flex justify-content-between">
-																		<p className="text-dark mb-0 text-end">Technologies</p>
-																		<p className="text-300 mb-0 text-end">C#, Visual Stidio</p>
-																	</div>
-																</li>
+																
 															</ul>
 															<div className="d-flex flex-wrap align-items-center gap-3 mt-7">
 																
