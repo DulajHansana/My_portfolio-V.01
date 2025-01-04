@@ -83,17 +83,7 @@ export default function Home2() {
 															</Link>
 														</li>
 													</ul>
-												</Marquee>
-											</div>
-											<div className="col-5 d-flex align-items-end">
-												<span className="fs-6 text-300 mb-2">...and more</span>
-											</div>
-										</div>
-										<Link href="assets/Dulaj Hansana Resume.pdf" className="btn me-2 text-300 ps-0 mt-4" target="_blank">
-											<i className="ri-download-line text-primary-2" />
-											[ Download my CV ]
-										</Link>
-									</div>
+										
 								</div>
 							</div>
 						</div>
