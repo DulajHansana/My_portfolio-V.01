@@ -15,7 +15,13 @@ export default function Skills2() {
 									<div className="d-flex align-items-center justify-content-center">
 										<svg className="text-primary-2 me-2" xmlns="http://www.w3.org/2000/svg" width={5} height={6} viewBox="0 0 5 6" fill="none">
 											<circle cx="2.5" cy={3} r="2.5" fill="#A8FF53" />
-								
+										</svg>
+										<span className="text-linear-4 d-flex align-items-center"> Projects </span>
+									</div>
+									<h3>My Skills</h3>
+								</div>
+								<div className="container mt-8">
+									<div className="row">
 										<div className="col-lg-6">
 											<div className="row">
 												<div className="col-lg-10 col-md-9 mx-auto overflow-hidden">
