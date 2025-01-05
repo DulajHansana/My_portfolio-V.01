@@ -9,15 +9,7 @@ export default function Contact2() {
 					<div className="row align-items-center">
 						<div className="col-lg-7 pb-5 pb-lg-0">
 							<div className="position-relative">
-								<div className="position-relative z-2">
-									<h3 className="text-primary-2 mb-3">Let’s connect</h3>
-									<form action="#">
-										<div className="row g-3">
-											<div className="col-md-6 ">
-												<input type="text" className="form-control bg-3 border border-1 rounded-3" id="name" name="name" placeholder="Your name" aria-label="username" />
-											</div>
-											<div className="col-md-6">
-												<input type="text" className="form-control bg-3 border border-1 rounded-3" id="phone" name="phone" placeholder="Phone" aria-label="phone" />
+								<div clasassName="form-control bg-3 border border-1 rounded-3" id="phone" name="phone" placeholder="Phone" aria-label="phone" />
 											</div>
 											<div className="col-md-6">
 												<input type="text" className="form-control bg-3 border border-1 rounded-3" id="email" name="email" placeholder="Emaill" aria-label="email" />
