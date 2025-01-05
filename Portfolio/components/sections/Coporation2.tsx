@@ -13,15 +13,7 @@ export default function Coporation2() {
 								<div className="box-linear-animation">
 									<div className="p-lg-8 p-md-6 p-3">
 										<div className="d-flex align-items-center">
-											<svg className="text-primary-2 me-2" xmlns="http://www.w3.org/2000/svg" width={5} height={6} viewBox="0 0 5 6" fill="none">
-												<circle cx="2.5" cy={3} r="2.5" fill="#A8FF53" />
-											</svg>
-											<span className="text-linear-4 d-flex align-items-center"> Cooperation </span>
-										</div>
-										<h3 className="fw-medium">
-											More than +168 <span className="text-300">companies <br /></span> trusted <span className="text-300">worldwide_</span>
-										</h3>
-										<div className="my-5 border border-1 rounded-2 p-3">
+						r border-1 rounded-2 p-3">
 											{/* Carausel Scroll */}
 											<Marquee className="carouselTicker carouselTicker-left position-relative z-1">
 												<ul className="carouselTicker__list m-0">
