@@ -22,7 +22,7 @@ export default function Static2() {
 										</div>
 									</div>
 								</div>
-								
+								<div className="col-lg-auto col-md-6 text-center text-lg-start">
 									<div className="counter-item-cover counter-item">
 										<div className="content mx-auto">
 											<i className="ri-computer-line text-primary-2" />
