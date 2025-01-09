@@ -354,7 +354,7 @@ export default function Projects2() {
 															Front-End Development Internship Program
 																
 															</h4>
-															<p>I’m thrilled to share that I’ve successfully completed a series of front-end development projects as part of my learning journey with CodeAlpha . Each project challenged my skills and taught me valuable lessons in HTML, CSS, and JavaScript. Here’s a breakdown of what I built:
+															<p>I’m thrilled to share that I’ve successfully completed a series of front-end development projects as part of my learning journey with CodeAlpha . Each project challenged my skills and taught me valuable lessons in HTML, CSS, and JavaScript.
 															</p>
 															<ul className="mt-4 list-unstyled">
 																<li className="text-secondary-2 mb-3 border-bottom pb-3">Project Info</li>
