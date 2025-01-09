@@ -346,7 +346,7 @@ export default function Projects2() {
                                                         </div>
 														<div className="col-lg-7 ps-lg-5 mt-5 mt-lg-0">
 															<h4 className="text-linear-4">
-															Redesign of the HUTCH Mobile App Homepage!
+															Front-End Development Internship Program
 																
 															</h4>
 															<p>After thoroughly exploring user experience and interface design, I’m excited to unveil my redesigned version of the Hutch Mobile App homepage. By using Figma Design</p>
