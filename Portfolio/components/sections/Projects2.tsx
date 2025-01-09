@@ -412,10 +412,9 @@ export default function Projects2() {
                                                         </div>
 														<div className="col-lg-7 ps-lg-5 mt-5 mt-lg-0">
 															<h4 className="text-linear-4">
-															Redesign of the HUTCH Mobile App Homepage!
-																
+															Spark-Chat Web Application
 															</h4>
-															<p>After thoroughly exploring user experience and interface design, I’m excited to unveil my redesigned version of the Hutch Mobile App homepage. By using Figma Design</p>
+															<p>SparkChat is a real-time messaging platform that enables seamless communication across devices. As part of the Code Alphaz team, I played a key role in building and upgrading the platform’s infrastructure to support a rapidly growing user base. By integrating React for the front end and Ballerina for the back end, we significantly enhanced real-time communication, scalability, and cross-device synchronization.</p>
 															<ul className="mt-4 list-unstyled">
 																<li className="text-secondary-2 mb-3 border-bottom pb-3">Project Info</li>
 																<li className="text-dark mb-3 border-bottom pb-3">
