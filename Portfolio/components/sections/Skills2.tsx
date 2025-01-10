@@ -24,10 +24,7 @@ export default function Skills2() {
 									<div className="row">
 										<div className="col-lg-6">
 											<div className="row">
-												<div className="col-lg-10 col-md-9 mx-auto overflow-hidden">
-													{/* Carausel Scroll */}
-													<Marquee className="carouselTicker carouselTicker-right position-relative z-1" direction="right">
-														<ul className="carouselTicker__list m-0">
+												<div className
 															<li className="carouselTicker__item mt-6">
 																<Link href="#" className="brand-logo icon_80 icon-shape rounded-3">
 																	<img src="assets/imgs/home-page-2/hero-1/icon-4.svg" alt="brand" />
