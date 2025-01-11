@@ -90,7 +90,14 @@ export default function Projects2() {
 																		<p className="text-300 mb-0 text-end">Mr.Dinusha Malshan </p>
 																	</div>
 																</li>
-																<li className="text-da
+																<li className="text-dark mb-3 border-bottom pb-3">
+																	<div className="d-flex justify-content-between">
+																		<p className="text-dark mb-0 text-end">Completion Time</p>
+																		<p className="text-300 mb-0 text-end">6 months</p>
+																	</div>
+																</li>
+																<li className="text-dark mb-3 border-bottom pb-3">
+																	<div className="d-flex justify-content-between">
 																		<p className="text-dark mb-0 text-end">Technologies</p>
 																		<p className="text-300 mb-0 text-end">Aarduino, C language</p>
 																	</div>
