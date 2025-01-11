@@ -422,13 +422,7 @@ export default function Projects2() {
                                                                 }}
                                                                 pagination={{ clickable: true }}
                                                                 loop={true}
-                                                                className="swiper project-image-slider"
-                                                            >
-                                                                <SwiperSlide>
-                                                                    <img className="w-100" src="assets/imgs/home-page-2/projects/32.png" alt="Project Image 1" />
-                                                                </SwiperSlide>
-                                                            </Swiper>
-                                                            <div className="swiper-button-prev-project shadow position-relative"></div>
+                                                                oject shadow position-relative"></div>
                                                             <div className="swiper-button-next-project shadow position-relative"></div>
                                                         </div>
     
