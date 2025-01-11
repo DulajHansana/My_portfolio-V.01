@@ -399,12 +399,7 @@ export default function Projects2() {
 															Innovate With Ballerina witn WSO2
 															</h4>
 															<p> Participation Certificate from the Innovate With Ballerina event, an incredible coding challenge organized by the IEEE Student Branch University of Moratuwa in collaboration with WSO2!</p>
-															<p>A huge shoutout to my amazing teammates for their dedication and creativity during the SparkChat project. This journey wouldn’t have been the same without your collaboration and support.</p>
-															<div className="d-flex flex-wrap align-items-center gap-3 mt-7">
-					                                         &nbsp; &nbsp;
-															</div>
-														</div>
-													</div>
+															<p
 												</div>
 											</SwiperSlide>
 											<SwiperSlide>
