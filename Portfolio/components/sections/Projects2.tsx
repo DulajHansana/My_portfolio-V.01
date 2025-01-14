@@ -80,7 +80,11 @@ export default function Projects2() {
 															<h4 className="text-linear-4">
 															Cafeteria Automation System<br />
 															
-															</h4>me="text-dark mb-3 border-bottom pb-3">
+															</h4>
+															<p>This is a group project that we done in our 2nd year on Ditital Control System module in collaborate with faculty of technology University of Sri Jayawardhenapura</p>
+															<ul className="mt-4 list-unstyled">
+																<li className="text-secondary-2 mb-3 border-bottom pb-3">Project Info</li>
+																<li className="text-dark mb-3 border-bottom pb-3">
 																	<div className="d-flex justify-content-between">
 																		<p className="text-dark mb-0 text-end">Supervisor</p>
 																		<p className="text-300 mb-0 text-end">Mr.Dinusha Malshan </p>
