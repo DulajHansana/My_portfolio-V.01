@@ -38,10 +38,7 @@ export default function Home2() {
 												<Marquee className="carouselTicker carouselTicker-left position-relative z-1 mt-lg-0 mt-8">
 													<ul className="carouselTicker__list ">
 														<li className="carouselTicker__item">
-															<Link href="#" className="brand-logo icon_60 icon-shape rounded-3">
-																<img src="assets/imgs/home-page-2/hero-1/icon-1.svg" alt="brand" />
-															</Link>
-														</li>
+															
 														<li className="carouselTicker__item">
 															<Link href="#" className="brand-logo icon_60 icon-shape rounded-3">
 																<img src="assets/imgs/home-page-2/hero-1/icon-2.svg" alt="brand" />
