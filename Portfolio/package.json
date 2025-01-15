@@ -9,9 +9,11 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "autoprefixer": "^10.4.20",
     "gsap": "^3.12.5",
     "isotope-layout": "^3.0.6",
     "next": "14.0.0",
+    "postcss": "^8.5.1",
     "react": "^18",
     "react-countup": "^6.5.3",
     "react-dom": "^18",
