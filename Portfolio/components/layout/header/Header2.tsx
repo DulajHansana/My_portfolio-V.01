@@ -14,10 +14,7 @@ export default function Header2({ scroll, isMobileMenu, handleMobileMenu,isOffCa
 								<i className="ri-menu-2-line" />
 							</a>
 							<div className="container py-3 px-4">
-								<Link className="navbar-brand d-flex main-logo align-items-center" href="/index-2">
-									<img src="assets/imgs/home-page-2/template/favicon.svg" alt="zelio" />
-									<span className="fs-4 ms-2">Dulaj.dev</span>
-								</Link>
+								
 								<div className="d-none d-lg-flex">
 									<div className="collapse navbar-collapse" id="navbarSupportedContent">
 										<ul className="navbar-nav me-auto mb-2 mb-lg-0">
