@@ -302,6 +302,7 @@ button,
 [type=reset],
 [type=submit] {
   -webkit-appearance: button;
+  appearance: button;
 }
 
 /**
@@ -385,6 +386,7 @@ textarea {
  */
 [type=search] {
   -webkit-appearance: textfield; /* 1 */
+  appearance: textfield; /* Standard property for compatibility */
   outline-offset: -2px; /* 2 */
 }
 
@@ -1972,30 +1974,41 @@ textarea {
 .text-linear-1 {
   background: var(--tc-linear-1);
   -webkit-background-clip: text;
+  background-clip: text;
+  background-clip: text;
+  background-clip: text;
+  background-clip: text;
+  background-clip: text;
+  background-clip: text;
+  background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 
 .text-linear-2 {
   background: var(--tc-linear-2);
   -webkit-background-clip: text;
+  background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 
 .text-linear-3 {
   background: var(--tc-linear-3);
   -webkit-background-clip: text;
+  background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 
 .text-linear-4 {
   background: var(--tc-linear-4);
   -webkit-background-clip: text;
+  background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 
 .text-linear-5 {
   background: var(--tc-linear-5);
   -webkit-background-clip: text;
+  background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 
@@ -2613,9 +2626,6 @@ textarea {
 }
 .mobile-header-wrapper-style .mobile-header-wrapper-inner .mobile-header-content-area .mobile-menu-wrap nav .mobile-menu li.has-children.active > .menu-expand {
   background: rgba(255, 255, 255, 0.2);
-}
-.mobile-header-wrapper-style .mobile-header-wrapper-inner .mobile-header-content-area .mobile-menu-wrap nav .mobile-menu li.has-children.active > .menu-expand i {
-  /* background: url(../imgs/template/icons/arrow-down-big.svg) no-repeat center; */
 }
 .mobile-header-wrapper-style .mobile-header-wrapper-inner .mobile-header-content-area .mobile-menu-wrap nav .mobile-menu li a {
   font-size: 16px;
@@ -3764,11 +3774,6 @@ textarea.form-control {
   opacity: 1;
 }
 
-.section-service-1 {
-  /*=============================
-      service 01
-  ===============================*/
-}
 .section-service-1 .single-service-card-1 .service-card-details {
   transition: all 0.2s ease-in-out;
 }
@@ -3978,6 +3983,7 @@ textarea.form-control {
 .stroke {
   background: var(--tc-linear-dark-3);
   -webkit-background-clip: text;
+  background-clip: text;
   -webkit-text-stroke: 2px transparent;
   text-wrap: nowrap;
   font-weight: 800;
