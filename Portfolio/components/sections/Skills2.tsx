@@ -114,7 +114,7 @@ export default function Skills2() {
 															<li className="mb-3">
 																<div className="d-flex flex-column flex-md-row gap-2">
 																	<p className="text-dark text-nowrap mb-0">Tools &amp; Platforms:</p>
-																	<span className="text-300">Git, AWS, Azure</span>
+																	<span className="text-300">Git, AWS, Azure, Docker</span>
 																</div>
 															</li>
 															<li className="mb-3">
@@ -124,7 +124,7 @@ export default function Skills2() {
 																</div>
 															</li>
 														</ul>
-													</div> 
+													</div>
 												</div>
 											</div>
 										</div>
